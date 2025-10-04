@@ -46,3 +46,6 @@ void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName)
 - 当有任务发生栈溢出时，程序会进入 `vApplicationStackOverflowHook`，可通过串口、LED 或调试器发现问题。
 - `configCHECK_FOR_STACK_OVERFLOW` 设为 2 检查更严格。
 - 如果用 printf，确保不会再导致栈溢出（可用 LED 或断点简单测试）。
+
+
+![图片说明](images/Hyper_jiawei_fithub.png)
