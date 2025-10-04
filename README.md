@@ -48,4 +48,4 @@ void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName)
 - 如果用 printf，确保不会再导致栈溢出（可用 LED 或断点简单测试）。
 
 
-![图片说明](images/Hyper_jiawei_fithub.png)
+![图片说明](image/Hyper_jiawei_github.png)
