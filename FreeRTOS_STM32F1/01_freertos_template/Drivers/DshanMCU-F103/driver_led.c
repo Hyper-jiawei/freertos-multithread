@@ -106,15 +106,30 @@ void Led_Test(void)
     while (1)
     {
         Led_Control(LED_GREEN, 1);
-        mdelay(50);
+        vTaskDelay(50);
         Led_Control(LED_GREEN, 0);
-        mdelay(50);
+        vTaskDelay(50);
 	    Led_Control(LED_GREEN, 1);
-        mdelay(50);
+        vTaskDelay(50);
         Led_Control(LED_GREEN, 0);
-        mdelay(1200);
-			
-			
+        vTaskDelay(1200);
     }
+
+
+/*以下是空闲任务实验
+按照这个方式，在注释掉vTaskDelete(NULL);命令后，LED闪烁五次就停止运行。*/
+    // for(int i=0;i<6;i++)
+    // {
+    //     Led_Control(LED_GREEN, 1);
+    //     mdelay(50);
+    //     Led_Control(LED_GREEN, 0);
+    //     mdelay(50);
+	//     Led_Control(LED_GREEN, 1);
+    //     mdelay(50);
+    //     Led_Control(LED_GREEN, 0);
+    //     mdelay(800);
+    // }
+    //vTaskDelete(NULLL); // 删除自己这个任务 
+
 }
 

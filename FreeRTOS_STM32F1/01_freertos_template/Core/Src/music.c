@@ -54,9 +54,9 @@
 		{494,988,1976}		
 	};
 //	
-////ÖÐËÙ´ú±íÀÖÇúËÙ¶ÈÊõÓïÀïµÄModerato£¬»ò³ÆÖÐ°å£¬Ã¿·ÖÖÓÔÚ88µ½104ÅÄ¡£
-////ÖÐËÙ Ã¿·ÖÖÓ100ÅÄ Ò»ÅÄ600ms
-//Á½Ö»ÀÏ»¢¼òÆ×£¬Ã»ÓÐÏ¸µ÷
+////ï¿½ï¿½ï¿½Ù´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Moderatoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð°å£¬Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½88ï¿½ï¿½104ï¿½Ä¡ï¿½
+////ï¿½ï¿½ï¿½ï¿½ Ã¿ï¿½ï¿½ï¿½ï¿½100ï¿½ï¿½ Ò»ï¿½ï¿½600ms
+//ï¿½ï¿½Ö»ï¿½Ï»ï¿½ï¿½ï¿½ï¿½×£ï¿½Ã»ï¿½ï¿½Ï¸ï¿½ï¿½
 //	uint16_t Music_Two_Tigers[][3]={
 //		{0,0,570},
 //		{1,Alto,One_Beat},
@@ -116,9 +116,9 @@
 //		
 
 //	};
-//ÖÐËÙ Ã¿·ÖÖÓ65ÅÄ Ò»ÅÄ920ms
+//ï¿½ï¿½ï¿½ï¿½ Ã¿ï¿½ï¿½ï¿½ï¿½65ï¿½ï¿½ Ò»ï¿½ï¿½920ms
 uint16_t Music_Lone_Brave[][3]={
-	//ÇúÐÅÏ¢
+	//ï¿½ï¿½ï¿½ï¿½Ï¢
 	{0,0,920},
 	
 //	#define Bass		0
@@ -129,355 +129,355 @@ uint16_t Music_Lone_Brave[][3]={
 //	#define	One_TWO_Beat		2
 //	#define	One_FOUR_Beat		4
 	
-	//µÚÒ»Ð¡½Ú
+	//ï¿½ï¿½Ò»Ð¡ï¿½ï¿½
 	{2,Alto,One_TWO_Beat}  ,{7,Bass,One_TWO_Beat}  ,{1,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat}  ,
 	{2,Alto,One_TWO_Beat}  ,{7,Bass,One_TWO_Beat}  ,{1,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat}  ,
 	
-	//µÚ¶þÐ¡½Ú	
+	//ï¿½Ú¶ï¿½Ð¡ï¿½ï¿½	
 	{2,Alto,One_TWO_Beat}  ,{7,Bass,One_TWO_Beat}  ,{1,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat}  ,
 	{2,Alto,One_TWO_Beat}  ,{7,Bass,One_TWO_Beat}  ,{1,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat}  ,
 	
-	//µÚÈýÐ¡½Ú	
+	//ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½	
 	{2,Alto,One_TWO_Beat}  ,{7,Bass,One_TWO_Beat}  ,{1,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat}  ,
 	{2,Alto,One_TWO_Beat}  ,{7,Bass,One_TWO_Beat}  ,{1,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat}  ,
 	
-	//µÚËÄÐ¡½Ú	
+	//ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½	
 	{2,Alto,One_TWO_Beat}  ,{7,Bass,One_TWO_Beat}  ,{1,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat}  ,
 	{2,Alto,One_TWO_Beat}  ,{7,Bass,One_TWO_Beat}  ,{1,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat}  ,
 	
-	//µÚÎåÐ¡½Ú	
+	//ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½	
 	{2,Alto,One_TWO_Beat}  ,{7,Bass,One_TWO_Beat}  ,{1,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat}  ,
 	{2,Alto,One_TWO_Beat}  ,{7,Bass,One_TWO_Beat}  ,{1,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat}  ,
 	
-	//µÚÁùÐ¡½Ú	
+	//ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½	
 	{3,Alto,One_Beat}		   ,{3,Alto,One_Beat}		  ,{0,Alto,One_Beat}       ,{0,Alto,One_FOUR_Beat} ,
 	{1,Alto,One_FOUR_Beat} ,{2,Alto,One_FOUR_Beat},{1,Alto,One_FOUR_Beat}  ,
 	
-	//µÚÆßÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Alto,One_Beat}      ,{3,Alto,One_Beat}			,{0,Alto,One_TWO_Beat}	 ,{1,Alto,One_FOUR_Beat} ,
 	{2,Alto,One_FOUR_Beat} ,{1,Alto,One_FOUR_Beat},{2,Alto,One_FOUR_Beat}  ,{3,Alto,One_FOUR_Beat} ,
 	
-	//µÚ°ËÐ¡½Ú
+	//ï¿½Ú°ï¿½Ð¡ï¿½ï¿½
 	{6,Bass,One_TWO_Beat}  ,{1,Alto,One_FOUR_Beat},{6,Bass,One_TWO_Beat}	 ,{1,Alto,One_FOUR_Beat} ,
 	{6,Bass,One_TWO_Beat}  ,{1,Alto,One_FOUR_Beat},{2,Alto,One_TWO_Beat}   ,{1,Alto,One_TWO_Beat}  ,
 	
-	//µÚ¾ÅÐ¡½Ú
+	//ï¿½Ú¾ï¿½Ð¡ï¿½ï¿½
 	{7,Bass,One_TWO_Beat}  ,{7,Bass,One_FOUR_Beat},{0,Alto,One_TWO_Beat}	 ,{0,Alto,One_FOUR_Beat} ,
 
-	//µÚÊ®Ð¡½Ú
+	//ï¿½ï¿½Ê®Ð¡ï¿½ï¿½
 	{3,Alto,One_Beat}		   ,{3,Alto,One_Beat}		  ,{0,Alto,One_Beat}       ,{0,Alto,One_FOUR_Beat} ,
 	{1,Alto,One_FOUR_Beat} ,{2,Alto,One_FOUR_Beat},{1,Alto,One_FOUR_Beat}  ,
 	
-	//µÚÊ®Ò»Ð¡½Ú
+	//ï¿½ï¿½Ê®Ò»Ð¡ï¿½ï¿½
 	{3,Alto,One_Beat}      ,{3,Alto,One_Beat}			,{0,Alto,One_TWO_Beat}	 ,{1,Alto,One_FOUR_Beat} ,
 	{2,Alto,One_FOUR_Beat} ,{1,Alto,One_FOUR_Beat},{2,Alto,One_FOUR_Beat}  ,{3,Alto,One_FOUR_Beat} ,
 	
-	//µÚÊ®¶þÐ¡½Ú
+	//ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{6,Bass,One_TWO_Beat}  ,{1,Alto,One_FOUR_Beat},{6,Bass,One_TWO_Beat}	 ,{1,Alto,One_FOUR_Beat} ,
 	{6,Bass,One_TWO_Beat}  ,{1,Alto,One_FOUR_Beat},{3,Alto,One_TWO_Beat}   ,{2,Alto,One_TWO_Beat}  ,
 		
-	//µÚÊ®ÈýÐ¡½Ú
+	//ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{7,Bass,One_TWO_Beat}  ,{7,Bass,One_FOUR_Beat},{0,Alto,One_TWO_Beat}	 ,{0,Alto,One_FOUR_Beat} ,
 	
-	//µÚÊ®ËÄÐ¡½Ú
+	//ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{6,Bass,One_FOUR_Beat} ,{1,Alto,One_FOUR_Beat},{6,Alto,One_TWO_Beat}	 ,{6,Alto,One_FOUR_Beat} ,
-	{0,Alto,20 /*Ð¡ÏÎ½Ó*/} ,{6,Alto,One_FOUR_Beat},{6,Alto,One_FOUR_Beat}  ,{5,Alto,One_FOUR_Beat} ,
+	{0,Alto,20 /*Ð¡ï¿½Î½ï¿½*/} ,{6,Alto,One_FOUR_Beat},{6,Alto,One_FOUR_Beat}  ,{5,Alto,One_FOUR_Beat} ,
 	{6,Alto,One_TWO_Beat}  ,{6,Alto,One_FOUR_Beat},{5,Alto,One_FOUR_Beat}  ,{6,Alto,One_FOUR_Beat} ,
 	{5,Alto,One_FOUR_Beat} ,{6,Alto,One_FOUR_Beat},{5,Alto,One_FOUR_Beat}  ,
 	
-	//µÚÊ®ÎåÐ¡½Ú
-	{3,Alto,One_FOUR_Beat} ,{3,Alto,One_TWO_Beat} ,{3,Alto,One_Beat}	     ,{0,Alto,20 /*Ð¡ÏÎ½Ó*/} ,
+	//ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
+	{3,Alto,One_FOUR_Beat} ,{3,Alto,One_TWO_Beat} ,{3,Alto,One_Beat}	     ,{0,Alto,20 /*Ð¡ï¿½Î½ï¿½*/} ,
 	{0,Alto,One_Beat}      ,{0,Alto,One_TWO_Beat} ,{6,Bass,One_FOUR_Beat}  ,{1,Alto,One_FOUR_Beat} ,
 	
-	//µÚÊ®ÁùÐ¡½Ú
-	{6,Alto,One_TWO_Beat}  ,{6,Alto,One_FOUR_Beat},{0,Alto,20 /*Ð¡ÏÎ½Ó*/}  ,{6,Alto,One_FOUR_Beat} ,
+	//ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
+	{6,Alto,One_TWO_Beat}  ,{6,Alto,One_FOUR_Beat},{0,Alto,20 /*Ð¡ï¿½Î½ï¿½*/}  ,{6,Alto,One_FOUR_Beat} ,
 	{5,Alto,One_FOUR_Beat} ,{6,Alto,One_FOUR_Beat},{5,Alto,One_FOUR_Beat}  ,{7,Alto,One_TWO_Beat}  ,
-	{7,Alto,One_FOUR_Beat} ,{0,Alto,20 /*Ð¡ÏÎ½Ó*/},{7,Alto,One_FOUR_Beat}  ,{6,Alto,One_FOUR_Beat} ,
+	{7,Alto,One_FOUR_Beat} ,{0,Alto,20 /*Ð¡ï¿½Î½ï¿½*/},{7,Alto,One_FOUR_Beat}  ,{6,Alto,One_FOUR_Beat} ,
 	{7,Alto,One_TWO_Beat}  ,
 	
-	//µÚÊ®ÆßÐ¡½Ú
+	//ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{7,Alto,One_FOUR_Beat} ,{6,Alto,One_TWO_Beat} ,{3,Alto,One_FOUR_Beat}  ,{3,Alto,One_TWO_Beat}  ,
 	{3,Alto,One_TWO_Beat}  ,{0,Alto,One_FOUR_Beat},{3,Alto,One_FOUR_Beat}  ,{5,Alto,One_FOUR_Beat} ,
 	{3,Alto,One_FOUR_Beat} ,
 
-	//µÚÊ®°ËÐ¡½Ú
+	//ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{2,Alto,One_TWO_Beat}  ,{3,Alto,One_FOUR_Beat},{2,Alto,One_TWO_Beat}   ,{3,Alto,One_FOUR_Beat} ,
 	{2,Alto,One_TWO_Beat}  ,{3,Alto,One_FOUR_Beat},{5,Alto,One_FOUR_Beat}  ,{3,Alto,One_FOUR_Beat} ,
 	{5,Alto,One_FOUR_Beat} ,{3,Alto,One_FOUR_Beat},
 	
-	//µÚÊ®¾ÅÐ¡½Ú
+	//ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{2,Alto,One_TWO_Beat}  ,{3,Alto,One_FOUR_Beat},{2,Alto,One_TWO_Beat}   ,{3,Alto,One_FOUR_Beat} ,
 	{2,Alto,One_Beat}      ,{0,Alto,One_TWO_Beat} ,{1,Alto,One_FOUR_Beat}  ,{2,Alto,One_FOUR_Beat} ,
 	
-	//µÚ¶þÊ®Ð¡½Ú
+	//ï¿½Ú¶ï¿½Ê®Ð¡ï¿½ï¿½
 	{3,Alto,One_TWO_Beat}  ,{6,Bass,One_TWO_Beat} ,{1,Alto,One_TWO_Beat}   ,{3,Alto,One_TWO_Beat}  ,
 	{2,Alto,One_TWO_Beat}  ,{3,Alto,One_FOUR_Beat},{2,Alto,One_FOUR_Beat}  ,{1,Alto,One_FOUR_Beat} ,
 	{1,Alto,One_TWO_Beat}  ,
 	
-	//µÚ¶þÊ®Ò»Ð¡½Ú
+	//ï¿½Ú¶ï¿½Ê®Ò»Ð¡ï¿½ï¿½
 	{6,Bass,One_Beat}      ,{6,Bass,One_Beat} 	  ,{0,Alto,One_Beat}       ,{0,Alto,One_TWO_Beat}  ,
 	{6,Alto,One_FOUR_Beat} ,{7,Alto,One_FOUR_Beat},
 	
-	//µÚ¶þÊ®¶þÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,
-	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},
+	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	
-	//µÚ¶þÊ®ÈýÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
-	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
+	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_TWO_Beat} ,{3,Teble,One_TWO_Beat} ,{6,Alto,One_FOUR_Beat} ,
 	{7,Alto,One_FOUR_Beat} ,
 	
-	//µÚ¶þÊ®ËÄÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,
-	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},
+	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	
-	//µÚ¶þÊ®ÎåÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
-	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
+	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_TWO_Beat} ,{3,Teble,One_TWO_Beat} ,{5,Teble,One_TWO_Beat} ,
 	
-	//µÚ¶þÊ®ÁùÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},
 	{3,Teble,One_FOUR_Beat},{5,Teble,One_FOUR_Beat},{6,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{5,Teble,One_TWO_Beat} ,
+	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{5,Teble,One_TWO_Beat} ,
 	
-	//µÚ¶þÊ®ÆßÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},
 	{3,Teble,One_FOUR_Beat},{5,Teble,One_FOUR_Beat},{6,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
+	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
 	{5,Teble,One_TWO_Beat} ,
 	
-	//µÚ¶þÊ®°ËÐ¡½Ú
-	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,
-	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
-	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
-	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
+	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,
+	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
+	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
+	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
 	{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
+	{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	
-	//µÚ¶þÊ®¾ÅÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{1,Teble,One_TWO_Beat}  ,{0,Alto,One_FOUR_Beat} ,{0,Alto,One_TWO_Beat}  ,{0,Alto,One_TWO_Beat}  ,
-	{5,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{5,Teble,One_FOUR_Beat},
+	{5,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{5,Teble,One_FOUR_Beat},
 	
-	//µÚÈýÊ®Ð¡½Ú
-	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,
-	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
-	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
-	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
+	//ï¿½ï¿½ï¿½ï¿½Ê®Ð¡ï¿½ï¿½
+	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,
+	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
+	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
+	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
 	{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
+	{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	
-	//µÚÈýÊ®Ò»Ð¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®Ò»Ð¡ï¿½ï¿½
 	{1,Teble,One_TWO_Beat} ,{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,
 //	
-//	//µÚÈýÊ®¶þÐ¡½Ú
+//	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 //	{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,
 //	
-//	//µÚÈýÊ®ÈýÐ¡½Ú
+//	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 //	{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,
 	
-	//µÚÈýÊ®ËÄÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,{0,Alto,One_TWO_Beat}  ,
 	{6,Teble,One_FOUR_Beat},{5,Alto,One_FOUR_Beat} ,
 	
-	//µÚÈýÊ®ÎåÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{6,Alto,One_TWO_Beat}  ,{5,Alto,One_FOUR_Beat} ,{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat} ,
-	{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat} ,{6,Alto,One_TWO_Beat}  ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
+	{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat} ,{6,Alto,One_TWO_Beat}  ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
 	{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat} ,{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat} ,
 	{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat} ,
 	
-	//µÚÈýÊ®ÁùÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 //	{3,Alto,One_FOUR_Beat} ,{3,Alto,One_TWO_Beat}  ,{3,Alto,One_Beat}       ,{0,Alto,One_Beat}     ,
 //	{0,Alto,One_TWO_Beat}  ,{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat}  ,
 	{3,Alto,One_TWO_Beat}  ,{3,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,
 	{0,Alto,One_TWO_Beat}  ,{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat} ,
 	
-	//µÚÈýÊ®ÆßÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{6,Alto,One_TWO_Beat}  ,{5,Alto,One_FOUR_Beat} ,{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat} ,
-	{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat} ,{7,Alto,One_TWO_Beat}  ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/} ,
-	{7,Alto,One_FOUR_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/} ,{7,Alto,One_FOUR_Beat} ,{6,Alto,One_FOUR_Beat} ,
+	{6,Alto,One_FOUR_Beat} ,{5,Alto,One_FOUR_Beat} ,{7,Alto,One_TWO_Beat}  ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/} ,
+	{7,Alto,One_FOUR_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/} ,{7,Alto,One_FOUR_Beat} ,{6,Alto,One_FOUR_Beat} ,
 	{7,Alto,One_FOUR_Beat} ,{6,Alto,One_FOUR_Beat} ,
 
-	//µÚÈýÊ®°ËÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 //	{3,Alto,One_FOUR_Beat} ,{3,Alto,One_TWO_Beat}  ,{3,Alto,One_Beat}  ,{0,Alto,One_Beat}  ,
 //	{0,Alto,One_FOUR_Beat},{3,Alto,One_FOUR_Beat}  ,{5,Alto,One_FOUR_Beat} ,{3,Alto,One_FOUR_Beat} ,
 	{3,Alto,One_TWO_Beat}  ,{3,Alto,One_Beat}  ,{0,Alto,One_Beat}  ,{0,Alto,One_FOUR_Beat},
 	{3,Alto,One_FOUR_Beat}  ,{5,Alto,One_FOUR_Beat} ,{3,Alto,One_FOUR_Beat} ,
 	
 	
-	//µÚÈýÊ®¾ÅÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{2,Alto,One_TWO_Beat}  ,{3,Alto,One_FOUR_Beat},{2,Alto,One_TWO_Beat}   ,{3,Alto,One_FOUR_Beat} ,
 	{2,Alto,One_TWO_Beat}  ,{3,Alto,One_FOUR_Beat},{5,Alto,One_FOUR_Beat}  ,{3,Alto,One_FOUR_Beat} ,
 	{5,Alto,One_FOUR_Beat} ,{3,Alto,One_FOUR_Beat},
 	
-	//µÚËÄÊ®Ð¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®Ð¡ï¿½ï¿½
 	{2,Alto,One_TWO_Beat}  ,{3,Alto,One_FOUR_Beat},{2,Alto,One_TWO_Beat}   ,{3,Alto,One_FOUR_Beat} ,
 	{2,Alto,One_Beat}      ,{0,Alto,One_TWO_Beat} ,{1,Alto,One_FOUR_Beat}  ,{2,Alto,One_FOUR_Beat} ,
 	
 	
-	//µÚËÄÊ®Ò»Ð¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®Ò»Ð¡ï¿½ï¿½
 	{3,Alto,One_TWO_Beat}  ,{6,Alto,One_TWO_Beat} ,{1,Teble,One_TWO_Beat}   ,{3,Teble,One_TWO_Beat}  ,
 	{2,Teble,One_TWO_Beat}  ,{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat}  ,{1,Teble,One_FOUR_Beat} ,
 	{1,Teble,One_TWO_Beat}  ,
 	
-	//µÚËÄÊ®¶þÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{6,Alto,One_Beat}  ,{0,Alto,One_Beat} ,{0,Alto,One_Beat}   ,{0,Alto,One_TWO_Beat}  ,
 	{6,Alto,One_FOUR_Beat}  ,{7,Alto,One_FOUR_Beat},
 	
 	
-	//¿ªÊ¼µÚÒ»±éÑ­»·
-	//µÚ¶þÊ®¶þÐ¡½Ú
+	//ï¿½ï¿½Ê¼ï¿½ï¿½Ò»ï¿½ï¿½Ñ­ï¿½ï¿½
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,
-	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},
+	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	
-	//µÚ¶þÊ®ÈýÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
-	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
+	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_TWO_Beat} ,{3,Teble,One_TWO_Beat} ,{6,Alto,One_FOUR_Beat} ,
 	{7,Alto,One_FOUR_Beat} ,
 	
-	//µÚ¶þÊ®ËÄÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,
-	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},
+	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	
-	//µÚ¶þÊ®ÎåÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
-	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
+	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_TWO_Beat} ,{3,Teble,One_TWO_Beat} ,{5,Teble,One_TWO_Beat} ,
 	
-	//µÚ¶þÊ®ÁùÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},
 	{3,Teble,One_FOUR_Beat},{5,Teble,One_FOUR_Beat},{6,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{5,Teble,One_TWO_Beat} ,
+	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{5,Teble,One_TWO_Beat} ,
 	
-	//µÚ¶þÊ®ÆßÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},
 	{3,Teble,One_FOUR_Beat},{5,Teble,One_FOUR_Beat},{6,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
+	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
 	{5,Teble,One_TWO_Beat} ,
 	
-	//µÚ¶þÊ®°ËÐ¡½Ú
-	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,
-	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
-	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
-	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
+	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,
+	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
+	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
+	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
 	{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
+	{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	
-	//µÚ¶þÊ®¾ÅÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{1,Teble,One_TWO_Beat}  ,{0,Alto,One_FOUR_Beat} ,{0,Alto,One_TWO_Beat}  ,{0,Alto,One_TWO_Beat}  ,
-	{5,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{5,Teble,One_FOUR_Beat},
+	{5,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{5,Teble,One_FOUR_Beat},
 	
-	//µÚÈýÊ®Ð¡½Ú
-	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,
-	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
-	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
-	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
+	//ï¿½ï¿½ï¿½ï¿½Ê®Ð¡ï¿½ï¿½
+	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,
+	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
+	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
+	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
 	{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
+	{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	
-	//µÚÒ»±éÑ­»·½áÊø
+	//ï¿½ï¿½Ò»ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	
-	//µÚËÄÊ®ÈýÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{6,Alto,One_TWO_Beat}  ,{6,Alto,One_TWO_Beat} ,{1,Alto,One_TWO_Beat}  ,{3,Alto,One_TWO_Beat}  ,
-	{7,Alto,One_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{7,Alto,One_TWO_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
-	{7,Alto,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{7,Alto,One_FOUR_Beat},
+	{7,Alto,One_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{7,Alto,One_TWO_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
+	{7,Alto,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{7,Alto,One_FOUR_Beat},
 	
-	//µÚËÄÊ®ËÄÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	//{6,Alto,One_FOUR_Beat}  ,{6,Alto,One_TWO_Beat} ,{6,Alto,One_Beat}  ,{0,Alto,One_Beat}  ,
 	//{0,Alto,One_Beat},{0,Alto,One_Beat},
 	{6,Alto,One_TWO_Beat} ,{6,Alto,One_TWO_Beat} ,{6,Alto,One_TWO_Beat} ,{0,Alto,One_Beat}  ,
 	{0,Alto,One_Beat},{0,Alto,One_Beat},
 	
-	//µÚËÄÊ®ÎåÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{6,Alto,One_TWO_Beat}  ,{6,Alto,One_TWO_Beat} ,{1,Alto,One_TWO_Beat}  ,{3,Alto,One_TWO_Beat}  ,
-	{7,Alto,One_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{7,Alto,One_TWO_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
-	{7,Alto,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{7,Alto,One_FOUR_Beat},
+	{7,Alto,One_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{7,Alto,One_TWO_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
+	{7,Alto,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{7,Alto,One_FOUR_Beat},
 	
-	//µÚËÄÊ®ÁùÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{7,Alto,One_FOUR_Beat},{6,Alto,One_TWO_Beat},{6,Alto,One_Beat} ,{0,Alto,One_Beat},
 	{0,Alto,One_TWO_Beat},{6,Alto,One_FOUR_Beat} ,{7,Alto,One_FOUR_Beat},
 	
 	
-	//µÚ¶þ´ÎÑ­»·
-	//µÚ¶þÊ®¶þÐ¡½Ú
+	//ï¿½Ú¶ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,
-	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},
+	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	
-	//µÚ¶þÊ®ÈýÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
-	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
+	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_TWO_Beat} ,{3,Teble,One_TWO_Beat} ,{6,Alto,One_FOUR_Beat} ,
 	{7,Alto,One_FOUR_Beat} ,
 	
-	//µÚ¶þÊ®ËÄÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	{7,Alto,One_FOUR_Beat} ,{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{7,Alto,One_FOUR_Beat} ,
-	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},
+	{1,Teble,One_FOUR_Beat},{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},
 	{1,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	
-	//µÚ¶þÊ®ÎåÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
-	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
+	{3,Teble,One_TWO_Beat} ,{0,Alto,306 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_TWO_Beat} ,{3,Teble,One_TWO_Beat} ,{5,Teble,One_TWO_Beat} ,
 	
-	//µÚ¶þÊ®ÁùÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},
 	{3,Teble,One_FOUR_Beat},{5,Teble,One_FOUR_Beat},{6,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{5,Teble,One_TWO_Beat} ,
+	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{5,Teble,One_TWO_Beat} ,
 	
-	//µÚ¶þÊ®ÆßÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},{3,Teble,One_TWO_Beat} ,{5,Teble,One_FOUR_Beat},
 	{3,Teble,One_FOUR_Beat},{5,Teble,One_FOUR_Beat},{6,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
+	{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{5,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
 	{5,Teble,One_TWO_Beat} ,
 	
-	//µÚ¶þÊ®°ËÐ¡½Ú
-	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,
-	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
-	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
-	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
+	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,
+	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
+	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
+	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
 	{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
+	{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 	
-	//µÚ¶þÊ®¾ÅÐ¡½Ú
+	//ï¿½Ú¶ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{1,Teble,One_TWO_Beat}  ,{0,Alto,One_FOUR_Beat} ,{0,Alto,One_TWO_Beat}  ,{0,Alto,One_TWO_Beat}  ,
-	{5,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{5,Teble,One_FOUR_Beat},
+	{5,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{5,Teble,One_FOUR_Beat},
 	
-	//µÚÈýÊ®Ð¡½Ú
-	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,
-	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
-	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
-	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},
+	//ï¿½ï¿½ï¿½ï¿½Ê®Ð¡ï¿½ï¿½
+	//{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,
+	//{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{3,Teble,One_FOUR_Beat},{2,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
+	//{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
+	{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},
 	{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},{3,Teble,One_FOUR_Beat},
-	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
-	{0,Alto,184 /*Ð¡ÏÎ½Ó*/},{1,Teble,One_FOUR_Beat},
+	{2,Teble,One_TWO_Beat} ,{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{2,Teble,One_TWO_Beat} ,{1,Teble,One_FOUR_Beat},
+	{0,Alto,184 /*Ð¡ï¿½Î½ï¿½*/},{1,Teble,One_FOUR_Beat},
 
-	//µÚ¶þ´ÎÑ­»·½áÊø
+	//ï¿½Ú¶ï¿½ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	
-	//µÚËÄÊ®ÆßÐ¡½Ú
+	//ï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½Ð¡ï¿½ï¿½
 	{1,Teble,One_TWO_Beat} ,{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,{0,Alto,One_Beat}      ,
 
 	{0,Alto,One_Beat} ,
@@ -489,7 +489,7 @@ uint16_t Music_Lone_Brave[][3]={
 /* USER CODE BEGIN FD */
 /**
   * @Function name  MUSIC_Begin
-  * @Introduce  		¿ªÊ¼²¥·ÅÒôÀÖ						
+  * @Introduce  		ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½						
   * @Return 				NULL
   */
 void MUSIC_Analysis(void){
@@ -500,7 +500,8 @@ void MUSIC_Analysis(void){
 		//BSP_Buzzer_SetFrequency(Tone_Index[Music_Lone_Brave[i][0]][Music_Lone_Brave[i][1]]);
 		PassiveBuzzer_Set_Freq_Duty(Tone_Index[Music_Lone_Brave[i][0]][Music_Lone_Brave[i][1]], 50);
 		//HAL_Delay(MusicSpeed/Music_Lone_Brave[i][2]);
-		mdelay(MusicSpeed/Music_Lone_Brave[i][2]);
+		//mdelay(MusicSpeed/Music_Lone_Brave[i][2]);
+		vTaskDelay(MusicSpeed/Music_Lone_Brave[i][2]);
 	}
 }
 	
