@@ -47,6 +47,9 @@ void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName)
 - `configCHECK_FOR_STACK_OVERFLOW` 设为 2 检查更严格。
 - 如果用 printf，确保不会再导致栈溢出（可用 LED 或断点简单测试）。
 
+# 疑问 🤨(ο´･д･)??
+- 如何互斥不干扰地访问OLED？
+- 为何在最后面创建的task4反而第一个运行起来？（实验效果显示确实如此），
 
 ![welcome to my git!](05_create_task/image/Hyper_jiawei_github.png)
 
