@@ -178,7 +178,7 @@ vTaskDelay(pdMS_TO_TICKS(100)); // 等待100ms
 - **ready**：已创建，随时可运行
 - **blocked**：阻塞，等待事件
 - **suspended**：挂起，可由自身或其他任务挂起
-![task_status](05_create_task/image/task_status.jpeg)
+![task_status](FreeRTOS_STM32F1/image/task_status.jpeg)
 
 ```c
 vTaskDelay(MusicSpeed/Music_Lone_Brave[i][2]); // 处于blocked状态，节省CPU资源
@@ -203,8 +203,8 @@ static void prvTaskExitError( void )
 	for( ;; ); // 这里将会是一个死循环一直让函数无法出来整个系统将停止运行。
 }
 ```
->![alt text](image.png)
->![alt text](image-1.png)
+>![alt text](FreeRTOS_STM32F1/image/image.png)
+>![alt text](FreeRTOS_STM32F1/image/image-1.png)
 >按照这个方式，在注释掉vTaskDelete(NULL);命令后，LED闪烁五次就停止运行。
 
 ## 3. 几种Delay函数
@@ -245,8 +245,8 @@ static void prvTaskExitError( void )
 
 <table>
   <tr>
-    <td><img src="14aa5cb60166c9839bf2efd94542fe6.jpg" width="300"/></td>
-    <td><img src="da982eb755b5f5fa1018ea0a396fa4f.jpg" width="300"/></td>
+    <td><img src="FreeRTOS_STM32F1/image/14aa5cb60166c9839bf2efd94542fe6.jpg" width="300"/></td>
+    <td><img src="FreeRTOS_STM32F1/image/da982eb755b5f5fa1018ea0a396fa4f.jpg" width="300"/></td>
   </tr>
   <tr>
     <td align="center">figure1</td>
@@ -259,6 +259,6 @@ static void prvTaskExitError( void )
 
 ---
 
-![welcome to my git!](05_create_task/image/Hyper_jiawei_github.png)
+![welcome to my git!](FreeRTOS_STM32F1/image/Hyper_jiawei_github.png)
 
-![my cat](05_create_task/image/cat.jpg)
+![my cat](FreeRTOS_STM32F1/image/cat.jpg)
