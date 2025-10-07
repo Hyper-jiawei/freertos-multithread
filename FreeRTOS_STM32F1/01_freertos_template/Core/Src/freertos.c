@@ -74,7 +74,6 @@ static TaskHandle_t xLightTaskHandle;
 static StackType_t g_pucStackOfColorTask[128];
 static StaticTask_t g_TCBofColorTask;
 static TaskHandle_t xColorTaskHandle;
-
 //任务创建环节,为"声光色影"模块设置的句柄
 
 
@@ -91,6 +90,7 @@ const osThreadAttr_t defaultTask_attributes = {
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
 
+/*这段程序用于测试多个task共用一个函数的例子*/
 struct PrintTask
 {
   uint32_t x;
@@ -103,6 +103,9 @@ static struct PrintTask task3 = {0,4,"Task3"};
 static struct PrintTask task4 = {0,6,"Task4"};
 int OLEDeable = 1;
 
+
+
+/*这段程序用于测试多个task共用一个函数的例子/两种Delay函数延时时间的例子*/
 void PrintTask(void *parameters)
 {
   struct PrintTask* taskinfo = parameters;
@@ -197,7 +200,7 @@ void MX_FREERTOS_Init(void) {
  
   
 
-  xTaskCreate(PrintTask, "PrintTask1", 128, &task1, osPriorityNormal, NULL);
+  //xTaskCreate(PrintTask, "PrintTask1", 128, &task1, osPriorityNormal, NULL);
   //xTaskCreate(PrintTask, "PrintTask2", 128, &task2, osPriorityNormal, NULL);
   //xTaskCreate(PrintTask, "PrintTask3", 128, &task3, osPriorityNormal, NULL);
   //TaskCreate(PrintTask, "PrintTask4", 128, &task4, osPriorityNormal, NULL);
@@ -241,65 +244,68 @@ void StartDefaultTask(void *argument)
     IRReceiver_Init();
 	  LCD_PrintString(0, 0, "Waiting control");
 
-    while (1)
-    {
-        /* 接收遥控数据 */
-		if (0 == IRReceiver_Read(&dev, &data))
-		{		
-			if (data == 0xa8) /* play */
-			{
-				/* play按键，创建任务 */
-			  extern void PlayMusic(void *params);
-			  if (xSoundTaskHandle == NULL) // 还未创建任务
-			  {
-					LCD_ClearLine(0, 0);
-					LCD_PrintString(0, 0, "Create Task");
-					ret = xTaskCreate(PlayMusic, "SoundTask", 128, NULL, osPriorityNormal+1, &xSoundTaskHandle);
-          //优先级比平时提升了一级
 
-          beRunning = 1;
-			  }
-        else
-        {
-          if (beRunning)
-          {
-            vTaskSuspend(xSoundTaskHandle);
-            //挂起任务
-            PassiveBuzzer_Control(0); /* 主动停止蜂鸣器 */
-            LCD_ClearLine(0, 0);
-					 LCD_PrintString(0, 0, "suspend Task");
-            beRunning = 0;
-          }
-          else
-          {
-            vTaskResume(xSoundTaskHandle);
-            //恢复任务
-            LCD_ClearLine(0, 0);
-					 LCD_PrintString(0, 0, "Resume Task");
-            beRunning = 1;
-          }
-        }
-			}
+
+    /*以下是关于任务管理（创建/删除/挂起/阻塞）的实验程序 */
+    // while (1)
+    // {
+    //     /* 接收遥控数据 */
+		// if (0 == IRReceiver_Read(&dev, &data))
+		// {		
+		// 	if (data == 0xa8) /* play */
+		// 	{
+		// 		/* play按键，创建任务 */
+		// 	  extern void PlayMusic(void *params);
+		// 	  if (xSoundTaskHandle == NULL) // 还未创建任务
+		// 	  {
+		// 			LCD_ClearLine(0, 0);
+		// 			LCD_PrintString(0, 0, "Create Task");
+		// 			ret = xTaskCreate(PlayMusic, "SoundTask", 128, NULL, osPriorityNormal+1, &xSoundTaskHandle);
+    //       //优先级比平时提升了一级
+
+    //       beRunning = 1;
+		// 	  }
+    //     else
+    //     {
+    //       if (beRunning)
+    //       {
+    //         vTaskSuspend(xSoundTaskHandle);
+    //         //挂起任务
+    //         PassiveBuzzer_Control(0); /* 主动停止蜂鸣器 */
+    //         LCD_ClearLine(0, 0);
+		// 			 LCD_PrintString(0, 0, "suspend Task");
+    //         beRunning = 0;
+    //       }
+    //       else
+    //       {
+    //         vTaskResume(xSoundTaskHandle);
+    //         //恢复任务
+    //         LCD_ClearLine(0, 0);
+		// 			 LCD_PrintString(0, 0, "Resume Task");
+    //         beRunning = 1;
+    //       }
+    //     }
+		// 	}
 			
-			else if (data == 0xa2) /* power key */
-			{
-				/* 已经创建任务 */
-				if (xSoundTaskHandle != NULL)
-				{
-					LCD_ClearLine(0, 0);
-					LCD_PrintString(0, 0, "Delete Task");
-					vTaskDelete(xSoundTaskHandle);
-					PassiveBuzzer_Control(0); /* 主动停止蜂鸣器 */
-					xSoundTaskHandle = NULL; // 任务状态句柄归零，等待创建
-				}
-			}
-		}
-    }
+		// 	else if (data == 0xa2) /* power key */
+		// 	{
+		// 		/* 已经创建任务 */
+		// 		if (xSoundTaskHandle != NULL)
+		// 		{
+		// 			LCD_ClearLine(0, 0);
+		// 			LCD_PrintString(0, 0, "Delete Task");
+		// 			vTaskDelete(xSoundTaskHandle);
+		// 			PassiveBuzzer_Control(0); /* 主动停止蜂鸣器 */
+		// 			xSoundTaskHandle = NULL; // 任务状态句柄归零，等待创建
+		// 		}
+		// 	}
+		// }
+    // }
 
-    /*
+
     for(;;)
   {
-   Led_Test();
+   //Led_Test();
   //LCD_Test();
 	//MPU6050_Test(); 
 	//DS18B20_Test();
@@ -307,7 +313,7 @@ void StartDefaultTask(void *argument)
 	//ActiveBuzzer_Test();
 	//PassiveBuzzer_Test();
 	//ColorLED_Test();
-	//IRReceiver_Test();  
+	IRReceiver_Test();  
 	//IRSender_Test();
 	//LightSensor_Test();
 	//IRObstacle_Test();
@@ -318,7 +324,7 @@ void StartDefaultTask(void *argument)
 	//Key_Test();
 	//UART_Test();
   }
-    */
+
   
   /* USER CODE END StartDefaultTask */
 }

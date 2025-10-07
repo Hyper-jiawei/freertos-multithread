@@ -254,6 +254,56 @@ static void prvTaskExitError( void )
   </tr>
 </table>
 
+# chapter3-同步，互斥与通信
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
